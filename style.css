@@ -1,0 +1,49 @@
+
+h1 {
+  color:blue;
+  font:oblique;
+  color:black;
+  font-size: small;
+  line-height: normal;
+}
+h2 {
+  color: blueviolet;
+  font: bold;
+  color: chartreuse
+  font-size: small;
+  line-height: normal;
+}
+body{
+  background-color:coral;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+p{
+  color:blue
+}
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.list-inline > li {
+
+  display: inline-block;
+  padding: 0px 20px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
